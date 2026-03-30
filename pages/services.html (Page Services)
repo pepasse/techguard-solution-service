@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Services - TechGuard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <strong>🛡️ TechGuard</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Title -->
+    <section class="bg-secondary text-white py-5">
+        <div class="container">
+            <h1>Nos Services</h1>
+            <p class="lead">Solutions complètes en électricité, énergie solaire et automation industrielle</p>
+        </div>
+    </section>
+
+    <!-- Services Detail -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <!-- Service 1 -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title">⚡ Installation et Maintenance Électrique</h3>
+                            <h5 class="text-muted">BTP & Industrielle</h5>
+                            <p class="card-text mt-3">
+                                Nous proposons des services complets d'installation et de maintenance électrique pour :
+                            </p>
+                            <ul>
+                                <li>Bâtiments et travaux publics</li>
+                                <li>Installations industrielles</li>
+                                <li>Systèmes de distribution électrique</li>
+                                <li>Maintenance préventive et curative</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title">📹 Installation Vidéosurveillance</h3>
+                            <h5 class="text-muted">Systèmes de sécurité modernes</h5>
+                            <p class="card-text mt-3">
+                                Installations professionnelles de caméras de vidéosurveillance :
+                            </p>
+                            <ul>
+                                <li>Diagnostic et conception</li>
+                                <li>Installation de caméras HD/4K</li>
+                                <li>Systèmes de stockage sécurisé</li>
+                                <li>Maintenance et support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title">☀️ Systèmes Solaires</h3>
+                            <h5 class="text-muted">Simple et Hybrides</h5>
+                            <p class="card-text mt-3">
+                                Solutions énergétiques durables et rentables :
+                            </p>
+                            <ul>
+                                <li>Dimensionnement technique</li>
+                                <li>Systèmes simples (photovoltaïque)</li>
+                                <li>Systèmes hybrides (avec batterie)</li>
+                                <li>Maintenance régulière</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title">🤖 Programmation Automates</h3>
+                            <h5 class="text-muted">Siemens, Zélio et autres</h5>
+                            <p class="card-text mt-3">
+                                Expertise en automation industrielle :
+                            </p>
+                            <ul>
+                                <li>Programmation Siemens (S7-1200, S7-1500)</li>
+                                <li>Automates Zélio</li>
+                                <li>Conception d'algorithmes</li>
+                                <li>Maintenance et support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-dark text-white text-center">
+        <div class="container">
+            <h2 class="mb-4">Intéressé par nos services ?</h2>
+            <a href="contact.html" class="btn btn-warning btn-lg">Demander un devis</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2026 TechGuard Solution and Service. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
