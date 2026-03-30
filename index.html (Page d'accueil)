@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGuard Solution and Service</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <strong>🛡️ TechGuard</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">À Propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white text-center py-5" style="background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">TechGuard Solution and Service</h1>
+            <p class="lead mb-4">Solutions électriques, solaires et d'automation industrielle de haute qualité</p>
+            <a href="pages/services.html" class="btn btn-warning btn-lg">Découvrir nos services</a>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Nos Prestations Principales</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">⚡ Installation Électrique</h5>
+                            <p class="card-text">Installation et maintenance électrique BTP et industrielle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">📹 Surveillance Vidéo</h5>
+                            <p class="card-text">Installation et maintenance de caméras de vidéosurveillance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">☀️ Systèmes Solaires</h5>
+                            <p class="card-text">Dimensionnement, installation et maintenance solaires</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">🤖 Automates Industriels</h5>
+                            <p class="card-text">Programmation Siemens, Zélio et systèmes d'automation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-dark text-white text-center">
+        <div class="container">
+            <h2 class="mb-4">Besoin d'une solution ?</h2>
+            <p class="lead mb-4">Contactez-nous pour un devis gratuit</p>
+            <a href="pages/contact.html" class="btn btn-warning btn-lg">Nous Contacter</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2026 TechGuard Solution and Service. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
