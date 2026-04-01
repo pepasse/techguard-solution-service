@@ -1,0 +1,1 @@
+<?php\n\nnamespace App\\Models;\n\nuse Illuminate\\Database\\Eloquent\\Model;\n\nclass Contact extends Model\n{\n    protected $fillable = [\n        'name',\n        'email',\n        'phone',\n        'service',\n        'message',\n        'status',\n    ];\n\n    public $timestamps = true;\n}\n
